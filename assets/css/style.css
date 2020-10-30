@@ -35,7 +35,7 @@ TABLE CONTENT
 ***/
 
 /*Import google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&amp;family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
 
 /* Import third party CSS library */
 @import url(vendor/bootstrap.min.css);
@@ -54,7 +54,7 @@ TABLE CONTENT
 @import url(vendor/perfect-scrollbar.css);
 
 /* GENERAL */
-body{font-family:'Arimo',sans-serif;font-weight:normal;font-style:normal;}
+body{font-family: 'Maven Pro', sans-serif;font-weight:normal;font-style:normal;}
 h1,
 h2,
 h3,
@@ -62,8 +62,8 @@ h4,
 h5,
 h6,
 .readmore-btn,
-.widget-taber a.nav-link{font-family:"Roboto",sans-serif;margin-top:0px;font-style:normal;font-weight:600;text-transform:normal}
-p{font-family:'Arimo',sans-serif;font-size:16px;margin-bottom:15px;font-weight:normal}
+.widget-taber a.nav-link{font-family: 'Maven Pro', sans-serif;margin-top:0px;font-style:normal;font-weight:600;text-transform:normal}
+p{font-family: 'Maven Pro', sans-serif;font-size:16px;margin-bottom:15px;font-weight:normal}
 .img{max-width:100%;-webkit-transition:all .2s ease-out 0s;-moz-transition:all .2s ease-out 0s;-ms-transition:all .2s ease-out 0s;-o-transition:all .2s ease-out 0s;transition:all .2s ease-out 0s}
 .fix{overflow:hidden}
 .clear{clear:both}
