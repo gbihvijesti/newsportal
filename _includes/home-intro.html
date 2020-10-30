@@ -1,0 +1,26 @@
+<!-- Home intro posts home - add homeintro tag to the post you want to highlight here - tags: [homeintro] -->
+{% for post in site.posts limit:16 %} 
+{% if post.tags contains "home-intro" %}
+<div class="post-thumb position-relative">
+    <div class="thumb-overlay img-hover-slide position-relative" style="background-image: url({{site.baseurl}}/{{ post.image }})">
+        <span class="top-right-icon background{{post.icon-color}}"><i class="mdi {{post.icon}}"></i></span>
+        <a class="img-link" href="{{site.baseurl}}{{post.url}}"></a>
+        <div class="post-content-overlay ml-30 mr-30">
+            <div class="entry-meta meta-0 font-small mb-20">
+                {% for category in post.categories %}
+                <a href="{{site.baseurl}}/categories.html#{{ category | downcase }}"><span class="post-cat background{{post.icon-color}} color-white">{{category}}</span></a>
+                {% endfor %}
+            </div>
+            <h3 class="post-title">
+                <a class="color-white" href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+            </h3>
+            <div class="entry-meta meta-1 font-small color-grey mt-10 pr-5 pl-5">
+                <span class="post-on">{{ post.date | date: '%b %d, %Y' }}</span>
+                <span class="hit-count has-dot">23k Views</span>
+                <a class="float-right" href="#"><i class="ti-heart"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+{% endfor %}

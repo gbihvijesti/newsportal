@@ -1,0 +1,15 @@
+<div class="col-lg-8 col-md-12">
+    <div class="news-flash-cover float-right">
+        <h6 class="float-left mr-10"><i class="ti-bolt mr-5"></i>Flash news</h6>
+        <div id="news-flash" class="d-inline-block">
+            <ul class="">
+                {% for post in site.posts limit:5 %}
+                <li><a class="font-medium" href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+    
