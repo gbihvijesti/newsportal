@@ -2,7 +2,7 @@
 title: "O nama"
 layout: page-sidebar
 permalink: "/o-nama"
-image: "/assets/images/screenshot.jpg"
+image: "/assets/images/home.jpg"
 comments: true
 ---
 
