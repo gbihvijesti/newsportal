@@ -35,7 +35,7 @@ TABLE CONTENT
 ***/
 
 /*Import google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
 
 /* Import third party CSS library */
 @import url(vendor/bootstrap.min.css);
@@ -97,7 +97,7 @@ hr{border-bottom:1px solid #eceff8;border-top:0 none;margin:30px 0;padding:0}
 img{max-width:100%;}
 ul{padding:0;margin:0;}
 .readmore-btn:hover i{padding-left:6px;}
-.boxed-btn{background:#fff;display:inline-block;padding:18px 44px;font-family:"Roboto",sans-serif;font-size:14px;font-weight:400;border:0;border:1px solid;letter-spacing:3px;text-align:center;text-transform:uppercase;cursor:pointer}
+.boxed-btn{background:#fff;display:inline-block;padding:18px 44px;font-family: 'Maven Pro', sans-serif;font-size:14px;font-weight:400;border:0;border:1px solid;letter-spacing:3px;text-align:center;text-transform:uppercase;cursor:pointer}
 .boxed-btn:hover{color:#fff!important;border:1px solid}
 .boxed-btn:focus{outline:none}
 .boxed-btn.large-width{width:220px}
