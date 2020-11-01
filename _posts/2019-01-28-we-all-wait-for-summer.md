@@ -3,7 +3,7 @@ layout: post
 title:  "We all wait for summer"
 author: jane
 categories: [ Jekyll, tutorial ]
-image: assets/images/1.jpg
+image: assets/images/1.webp
 tags: [featured, home-intro]
 icon: mdi-audiotrack
 icon-color: 8

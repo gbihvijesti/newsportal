@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 categories: [ Jekyll ]
-image: /assets/images/demo1.jpg
+image: /assets/images/demo1.webp
 icon: mdi-camera-alt
 icon-color: 6
 ---

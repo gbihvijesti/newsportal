@@ -3,7 +3,7 @@ layout: post
 title:  "Options for creating a new site with Jekyll"
 author: jane
 categories: [ Jekyll, tutorial ]
-image: assets/images/13.jpg
+image: assets/images/13.webp
 icon: mdi-camera-alt
 icon-color: 4
 ---

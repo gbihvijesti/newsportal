@@ -3,7 +3,7 @@ layout: post
 title:  "Accumulated experience of social living"
 author: sal
 categories: [ Jekyll, tutorial ]
-image: /assets/images/15.jpg
+image: /assets/images/15.webp
 icon: mdi-camera-alt
 icon-color: 11
 ---

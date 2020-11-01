@@ -3,7 +3,7 @@ layout: post
 title:  "Red Riding Hood"
 author: sal
 categories: [ Jekyll, tutorial ]
-image: assets/images/3.jpg
+image: assets/images/3.webp
 icon: mdi-camera-alt
 icon-color: 6
 ---

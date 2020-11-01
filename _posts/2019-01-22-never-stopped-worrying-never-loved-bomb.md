@@ -3,7 +3,7 @@ layout: post
 title:  "Never stopped worrying or loving the bomb"
 author: sal
 categories: [ Jekyll ]
-image: assets/images/14.jpg
+image: assets/images/14.webp
 tags: [featured, home-intro]
 icon: mdi-photo
 icon-color: 1
