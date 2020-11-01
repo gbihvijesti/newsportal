@@ -2,7 +2,7 @@
 layout: post
 title:  "Education must also train one for quick, resolute and effective thinking."
 categories: [ Jekyll, tutorial ]
-image: assets/images/3.jpg
+image: /assets/images/3.jpg
 icon: mdi-camera-alt
 icon-color: 10
 ---

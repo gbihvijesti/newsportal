@@ -3,7 +3,8 @@ layout: post
 title:  "The first mass-produced book to deviate from a rectilinear format"
 author: sal
 categories: [ tutorial ]
-image: assets/images/17.jpg
+image: /assets/images/17.jpg
+img-alt: mass production
 tags: [featured, home-intro]
 icon: mdi-flash-on
 icon-color: 5

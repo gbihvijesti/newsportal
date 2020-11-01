@@ -1,0 +1,19 @@
+
+<figure class="single-thumnail">
+    <div class="featured-slider-1 border-radius-5">
+        {% if page.carousel %}
+        <div class="featured-slider-1-items">
+            {% for slides in page.carousel %}
+            <div class="slider-single">
+                <img src="{{site.baseurl}}{{ slides.image }}" alt="{{ slides.alt }}">
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+    <div class="arrow-cover"></div>
+    <div class="credit mt-15 font-small color-grey">
+        <i class="ti-credit-card mr-5"></i><span>Image credit: {{ page.credit }}</span>
+    </div>
+</figure>
+

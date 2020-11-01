@@ -2,7 +2,7 @@
 {% for post in site.posts limit:16 %} 
 {% if post.tags contains "home-intro" %}
 <div class="post-thumb position-relative">
-    <div class="thumb-overlay img-hover-slide position-relative" style="background-image: url({{site.baseurl}}/{{ post.image }})">
+    <div class="thumb-overlay img-hover-slide position-relative" style="background-image: url({{site.baseurl}}{{ post.image }})">
         <span class="top-right-icon background{{post.icon-color}}"><i class="mdi {{post.icon}}"></i></span>
         <a class="img-link" href="{{site.baseurl}}{{post.url}}"></a>
         <div class="post-content-overlay ml-30 mr-30">

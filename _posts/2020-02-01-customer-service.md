@@ -1,12 +1,21 @@
 ---
 layout: post
 title:  "What is Jekyll"
-author: jane
+author: lindsay
 categories: [ Jekyll, tutorial ]
-image: assets/images/home.jpg
+image: /assets/images/home.jpg
+img-alt: home-alt
 tags: [featured, home-intro]
 icon: mdi-camera-alt
 icon-color: 2
+carousel: 
+  - image: /uploads/posts/news-6.jpg
+    alt: news6
+  - image: /uploads/posts/news-14.jpg
+    alt: news14
+  - image: /uploads/posts/news-15.jpg
+    alt: news15
+credit: behance
 ---
 
 No more databases, comment moderation, or pesky updates to install-just your content. Markdown, Liquid, HTML & CSS go in. Static sites come out ready for deployment. Permalinks, categories, pages, posts, and custom layouts are all first-class citizens here.
