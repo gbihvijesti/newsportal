@@ -221,8 +221,8 @@ transition:visibility 0s linear .3s,transform .3s ease,opacity .3s ease,-webkit-
 .main-search-form .search-switch{position:absolute;right:30px;top:50%;transform:translateY(-50%);margin-top:-3px;line-height:1;border-left:1px solid #dfe0e6;padding-left:15px;font-size:14px;}
 
 /*Main header*/
-.main-header .main-nav ul li a{color:#092b4d;font-weight:500;padding:27px 12px;display:block;font-size:12px;-webkit-transition:all .2s ease-out 0s;-moz-transition:all .2s ease-out 0s;-ms-transition:all .2s ease-out 0s;-o-transition:all .2s ease-out 0s;transition:all .2s ease-out 0s;font-family:'Roboto',sans-serif;line-height:1;}
-.main-header .main-nav ul li > a{text-transform:uppercase;}
+.main-header .main-nav ul li a{color:#092b4d;font-weight:500;padding:27px 12px;display:block;font-size:16px;-webkit-transition:all .2s ease-out 0s;-moz-transition:all .2s ease-out 0s;-ms-transition:all .2s ease-out 0s;-o-transition:all .2s ease-out 0s;transition:all .2s ease-out 0s;font-family: 'Maven Pro', sans-serif;line-height:1;}
+.main-header .main-nav ul li > a{text-transform:none;}
 .main-header .main-nav ul li.menu-item-has-children > a{padding-right:15px;}
 .main-header .main-nav ul li.menu-item-has-children > a::after{content:"\e64b";font-family:'themify';font-size:8px;display:inline-block;padding-left:5px;}
 .main-header .main-nav ul ul.sub-menu{text-align:left;position:absolute;width:170px;background:#fff;left:0;top:120%;visibility:hidden;opacity:0;box-shadow:0 0 10px 3px rgba(0,0,0,0.05);padding:17px 0;border-top:2px solid;-webkit-transition:all .2s ease-out 0s;-moz-transition:all .2s ease-out 0s;-ms-transition:all .2s ease-out 0s;-o-transition:all .2s ease-out 0s;transition:all .2s ease-out 0s}
