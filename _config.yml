@@ -9,7 +9,6 @@ email: 'gbihvijesti@gmail.com'
 mailchimp-list: ''
 
 
-
 include: ["_pages"]
 permalink: /:title/
 

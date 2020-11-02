@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "The first mass-produced book to deviate from a rectilinear format"
+lead: These people envy me for having a lifestyle they don’t have, but the truth is, sometimes I envy their lifestyle instead. Struggling to sell one multi-million dollar home currently.
 author: sal
 categories: [ tutorial ]
-image: /assets/images/17.webp
+image: /assets/images/11.webp
 img-alt: mass production
 tags: [featured, home-intro]
 icon: mdi-flash-on

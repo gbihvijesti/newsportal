@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Powerful things you can do with the Markdown editor"
+lead: It seems to me that education has a two-fold function to perform in the life of man and in society the one is utility and the other is culture. 
 author: sal
 categories: [ Jekyll, tutorial ]
-image: assets/images/4.webp
+image: /assets/images/4.webp
 tags: [featured, home-intro]
 icon: mdi-favorite
 icon-color: 1

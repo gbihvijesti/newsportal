@@ -1,0 +1,23 @@
+<div class="author-bio">
+    <div class="author-image mb-30">
+        <a href="author.html">
+            {% if author.avatar %}
+            <img class="avatar" src="{{site.baseurl}}/{{author.avatar}}" alt="{{author.name}}"/>
+            {% endif %}		
+        </a></div>
+    <div class="author-info">
+        <h3><span class="vcard author"><span class="fn"><a href="author.html" title="Posts by {{author.name}}" rel="author">{{author.name}}</a></span></span></h3>
+        <h5>About author</h5>
+        <div class="author-description">{{author.bio}}</div>
+        <a href="author.html" class="author-bio-link">View all posts</a>
+        <div class="author-social">
+            <ul class="author-social-icons">
+                <li class="list-inline-item"><a class="social-icon facebook-icon text-xs-center" target="_blank" href="{{author.facebook}}"><i class="ti-facebook"></i></a></li>
+                <li class="list-inline-item"><a class="social-icon twitter-icon text-xs-center" target="_blank" href="{{author.twitter}}"><i class="ti-twitter-alt"></i></a></li>
+                <li class="list-inline-item"><a class="social-icon pinterest-icon text-xs-center" target="_blank" href="{{author.pinterest}}"><i class="ti-pinterest"></i></a></li>
+                <li class="list-inline-item"><a class="social-icon instagram-icon text-xs-center" target="_blank" href="{{author.instagram}}"><i class="ti-instagram"></i></a></li>
+
+            </ul>
+        </div>
+    </div>
+</div>

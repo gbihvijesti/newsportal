@@ -3,7 +3,7 @@ layout: post
 title:  "Could we reinvent the charm of old cities"
 author: jane
 categories: [ Jekyll, tutorial ]
-image: assets/images/home.webp
+image: assets/images/17.webp
 tags: [featured, home-intro]
 icon: mdi-camera-alt
 icon-color: 2

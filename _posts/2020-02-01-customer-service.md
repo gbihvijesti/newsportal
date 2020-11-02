@@ -3,7 +3,7 @@ layout: post
 title:  "What is Jekyll"
 author: lindsay
 categories: [ Jekyll, tutorial ]
-image: /assets/images/home.webp
+image: /assets/images/16.webp
 img-alt: home-alt
 tags: [featured, home-intro]
 icon: mdi-camera-alt

@@ -36,9 +36,14 @@ layout: default
 							</div>
 				</div>
 						<!--end entry header-->
-					{% include post-slider.html %}
+					{% if page.carousel %}
+						{% include post-slider.html %}
+					 {% else %}
+					 <figure class="single-thumnail img-hover-slide mb-0" style="background-image: url({{site.baseurl}}{{ page.image }})"></figure>
+					 {% endif %}
+					
 						<div class="single-excerpt">
-							<p class="font-large">Tolerably much and ouch the in began alas more ouch some then accommodating flimsy wholeheartedly after hello slightly the that cow pouted much a goodness bound rebuilt poetically jaguar groundhog</p>
+							<p class="font-large">{{ page.lead }}</p>
 						</div>
 						<div class="entry-main-content">
 							<h2>Design is future</h2>
@@ -47,9 +52,9 @@ layout: default
 							<p>Spluttered narrowly yikes left moth in yikes bowed this that grizzly much hello on spoon-fed that alas rethought much decently richly and wow against the frequent fluidly at formidable acceptably flapped besides and much circa far over the bucolically hey precarious goldfinch mastodon goodness gnashed a jellyfish and one however because.</p>
 							<figure class="wp-block-gallery columns-3">
 								<ul class="blocks-gallery-grid">
-									<li class="blocks-gallery-item"><a href="#"><img class="border-radius-5" src="assets/imgs/thumbnail-1.jpg" alt=""></a></li>
-									<li class="blocks-gallery-item"><a href="#"><img class="border-radius-5" src="assets/imgs/thumbnail-2.jpg" alt=""></a></li>
-									<li class="blocks-gallery-item"><a href="#"><img class="border-radius-5" src="assets/imgs/thumbnail-10.jpg" alt=""></a></li>
+									<li class="blocks-gallery-item"><a href="#"><img class="border-radius-5" src="/assets/imgs/thumbnail-1.jpg" alt=""></a></li>
+									<li class="blocks-gallery-item"><a href="#"><img class="border-radius-5" src="/assets/imgs/thumbnail-2.jpg" alt=""></a></li>
+									<li class="blocks-gallery-item"><a href="#"><img class="border-radius-5" src="/assets/imgs/thumbnail-10.jpg" alt=""></a></li>
 								</ul>
 							</figure>
 							<p>Laconic overheard dear woodchuck wow this outrageously taut beaver hey hello far meadowlark imitatively egregiously hugged that yikes minimally unanimous pouted flirtatiously as beaver beheld above forward energetic across this jeepers beneficently cockily less a the raucously that magic upheld far so the this where crud then below after jeez enchanting drunkenly more much wow callously irrespective limpet.</p>
@@ -62,7 +67,7 @@ layout: default
 							<hr class="wp-block-separator is-style-wide">
 							<div class="wp-block-image">
 								<figure class="alignleft is-resized">
-									<img class="border-radius-5" src="assets/imgs/thumbnail-14.jpg">
+									<img class="border-radius-5" src="/assets/imgs/thumbnail-14.jpg">
 									<figcaption> And far contrary smoked some contrary among stealthy </figcaption>
 								</figure>
 							</div>
@@ -75,7 +80,7 @@ layout: default
 							<hr class="wp-block-separator is-style-wide">
 							<p>Alexe more gulped much garrulous a yikes earthworm wiped because goodness bet mongoose that along accommodatingly tortoise indecisively admirable but shark dear some and unwillingly before far vindictive less much this on more less flexed far woolly from following glanced resolute unlike far this alongside against icily beyond flabby accidental.</p>
 							<p class="text-center">
-								<a href="#"><img class="d-inline" src="assets/imgs/ads-4.jpg" alt=""></a>
+								<a href="#"><img class="d-inline" src="/assets/imgs/ads-4.jpg" alt=""></a>
 							</p>
 						</div>
 						<div class="entry-bottom mt-50 mb-30">
@@ -100,102 +105,9 @@ layout: default
 						</div>
 						<div class="bt-1 border-color-1 mt-30 mb-30"></div>
 						<!--author box-->
-						<div class="author-bio">
-							<div class="author-image mb-30">
-								<a href="author.html"><img src="assets/imgs/author.png" alt="" class="avatar"></a></div>
-							<div class="author-info">
-								<h3><span class="vcard author"><span class="fn"><a href="author.html" title="Posts by Robert" rel="author">Robert</a></span></span></h3>
-								<h5>About author</h5>
-								<div class="author-description">You should write because you love the shape of stories and sentences and the creation of different words on a page. </div>
-								<a href="author.html" class="author-bio-link">View all posts</a>
-								<div class="author-social">
-									<ul class="author-social-icons">
-										<li class="author-social-link-facebook"><a href="#" target="_blank"><i class="ti-facebook"></i></a></li>
-										<li class="author-social-link-twitter"><a href="#" target="_blank"><i class="ti-twitter-alt"></i></a></li>
-										<li class="author-social-link-pinterest"><a href="#" target="_blank"><i class="ti-pinterest"></i></a></li>
-										<li class="author-social-link-instagram"><a href="#" target="_blank"><i class="ti-instagram"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
+						{% include post-autor-bio.html %}
 						<!--related posts-->
-						<div class="related-posts">
-							<h3 class="mb-30">Related posts</h3>
-							<div class="loop-list">
-								<article class="row mb-30">
-									<div class="col-md-4">
-										<div class="post-thumb position-relative thumb-overlay">
-											<div class="img-hover-slide border-radius-5 position-relative" style="background-image: url(assets/imgs/news-11.jpg)">
-												<a class="img-link" href="single.html"></a>
-												<span class="top-right-icon background8"><i class="mdi mdi-flash-on"></i></span>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-8 align-center-vertical">
-										<div class="post-content">
-											<div class="entry-meta meta-0 font-small mb-15"><a href="category.html"><span class="post-cat background2 color-white">Fashion</span></a></div>
-											<h4 class="post-title">
-												<a href="single.html">The World Caters to Average People and Mediocre Lifestyles</a>
-											</h4>
-											<div class="entry-meta meta-1 font-small color-grey mt-15 mb-15">
-												<span class="post-on"><i class="ti-marker-alt"></i>25 April 2020</span>
-												<span class="time-reading"><i class="ti-timer"></i>10 mins read</span>
-												<span class="hit-count"><i class="ti-bolt"></i> 159k Views</span>
-											</div>
-											<p class="font-medium">These people envy me for having a lifestyle they don’t have, but the truth is, sometimes I envy their lifestyle instead. Struggling to sell one multi-million dollar home currently.</p>
-										</div>
-									</div>
-								</article>
-								<article class="row mb-30">
-									<div class="col-md-4">
-										<div class="post-thumb position-relative thumb-overlay">
-											<div class="img-hover-slide border-radius-5 position-relative" style="background-image: url(assets/imgs/news-12.jpg)">
-												<a class="img-link" href="single.html"></a>
-												<span class="top-right-icon background5"><i class="mdi mdi-favorite"></i></span>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-8 align-center-vertical">
-										<div class="post-content">
-											<div class="entry-meta meta-0 font-small mb-15"><a href="category.html"><span class="post-cat background3 color-white">Technology</span></a></div>
-											<h4 class="post-title">
-												<a href="single.html">Why Teamwork Really Makes The Dream Work</a>
-											</h4>
-											<div class="entry-meta meta-1 font-small color-grey mt-15 mb-15">
-												<span class="post-on"><i class="ti-marker-alt"></i>25 April 2020</span>
-												<span class="time-reading"><i class="ti-timer"></i>10 mins read</span>
-												<span class="hit-count"><i class="ti-bolt"></i> 159k Views</span>
-											</div>
-											<p class="font-medium">We live in a world where disruption and dynamism reign supreme and businesses must be ready to adapt to the many unpredictable changes that come with this.</p>
-										</div>
-									</div>
-								</article>
-								<article class="row mb-30">
-									<div class="col-md-4">
-										<div class="post-thumb position-relative thumb-overlay">
-											<div class="img-hover-slide border-radius-5 position-relative" style="background-image: url(assets/imgs/news-13.jpg)">
-												<a class="img-link" href="single.html"></a>
-												<span class="top-right-icon background2"><i class="mdi mdi-audiotrack"></i></span>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-8 align-center-vertical">
-										<div class="post-content">
-											<div class="entry-meta meta-0 font-small mb-15"><a href="category.html"><span class="post-cat background1 color-white">Sport</span></a></div>
-											<h4 class="post-title">
-												<a href="single.html">9 Things I Love About Shaving My Head During Quarantine</a>
-											</h4>
-											<div class="entry-meta meta-1 font-small color-grey mt-15 mb-15">
-												<span class="post-on"><i class="ti-marker-alt"></i>25 April 2020</span>
-												<span class="time-reading"><i class="ti-timer"></i>10 mins read</span>
-												<span class="hit-count"><i class="ti-bolt"></i> 159k Views</span>
-											</div>
-											<p class="font-medium">At the Emmys, broadcast scripted shows created by people of color gained ground relative to those pitched by White show creators, while broadcast scripted shows.</p>
-										</div>
-									</div>
-								</article>
-							</div>
-						</div>
+						{% include related-post.html %}
 						<!--Comments-->
 						<div class="comments-area">
 							<h3 class="mb-30">03 Comments</h3>
