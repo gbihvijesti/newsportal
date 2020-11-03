@@ -4,7 +4,7 @@ title:  "Never stopped worrying or loving the bomb"
 author: sal
 categories: [ Jekyll ]
 image: assets/images/14.webp
-tags: [featured, home-intro]
+tags: featured homeintro
 icon: mdi-photo
 icon-color: 1
 ---

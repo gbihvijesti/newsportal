@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "Could we reinvent the charm of old cities"
-author: jane
-categories: [ Jekyll, tutorial ]
-image: assets/images/17.webp
-tags: featured homeintro
-icon: mdi-camera-alt
-icon-color: 2
+title:  "Obranite organizam od jesenskih viroza i prehlada drevnim ayurvedskim receptom"
+author: lindsay
+categories: [ zdravlje ]
+image: /uploads/zdravlje/sidha-dugdham.jpg
+tags: 
+icon: mdi-flash-on
+icon-color: 1
 ---
 
-Bucharest’s history alternated periods of development and decline from the early settlements in antiquity until its consolidation as the national capital of Romania late in the 19th century. First mentioned as the “Citadel of București” in 1459, it became the residence of the famous Wallachian prince Vlad III the Impaler.
+Čim dođu hladniji dani, za vas počinje sezona neugodnog šmrcanja i prehlade ili grlobolje popraćene kašljem?Isprobali ste i parnu inhalaciju, razne kapi i sirupe protiv kašlja iz ljekarne, no ništa nije imalo pravog učinka?
 
 #### Early 18th century woodcut of Bucharest
 

@@ -4,7 +4,7 @@ title:  "Markdown Example"
 author: jane
 categories: [ Jekyll, tutorial ]
 image: assets/images/6.webp
-tags: [featured, home-intro]
+tags: featured homeintro
 icon: mdi-flash-on
 icon-color: 4
 ---

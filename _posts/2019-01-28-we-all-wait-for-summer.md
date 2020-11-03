@@ -5,7 +5,7 @@ lead: It seems to me that education has a two-fold function to perform in the li
 author: jane
 categories: [ Jekyll, tutorial ]
 image: /assets/images/1.webp
-tags: [featured, home-intro]
+tags: featured homeintro
 icon: mdi-audiotrack
 icon-color: 8
 ---

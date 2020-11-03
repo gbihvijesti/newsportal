@@ -6,7 +6,7 @@ author: sal
 categories: [ tutorial ]
 image: /assets/images/11.webp
 img-alt: mass production
-tags: [featured, home-intro]
+tags: featured homeintro
 icon: mdi-flash-on
 icon-color: 5
 ---

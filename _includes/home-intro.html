@@ -1,6 +1,7 @@
 <!-- Home intro posts home - add homeintro tag to the post you want to highlight here - tags: [homeintro] -->
-{% for post in site.posts limit:16 %} 
-{% if post.tags contains "home-intro" %}
+
+{% for post in site.posts limit:15 %}
+{% if post.tags contains "homeintro" %}
 <div class="post-thumb position-relative">
     <div class="thumb-overlay img-hover-slide position-relative" style="background-image: url({{site.baseurl}}{{ post.image }})">
         <span class="top-right-icon background{{post.icon-color}}"><i class="mdi {{post.icon}}"></i></span>

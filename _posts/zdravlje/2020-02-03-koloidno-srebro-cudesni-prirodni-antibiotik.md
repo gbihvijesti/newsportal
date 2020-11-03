@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Zdravlje Could we reinvent the charm of old cities"
+title:  "Koloidno srebro - čudesni prirodni antibiotik"
 author: jane
-categories: [ Zdravlje ]
-image: assets/images/home.jpg
-tags: [featured, home-intro]
+categories: [ zdravlje ]
+image: /uploads/zdravlje/ionsko-srebro.jpg
+tags: ionsko srebro
 icon: mdi-camera-alt
 icon-color: 2
 ---

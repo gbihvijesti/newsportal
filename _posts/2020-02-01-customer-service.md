@@ -5,7 +5,7 @@ author: lindsay
 categories: [ Jekyll, tutorial ]
 image: /assets/images/16.webp
 img-alt: home-alt
-tags: [featured, home-intro]
+tags: featured homeintro
 icon: mdi-camera-alt
 icon-color: 2
 carousel: 
