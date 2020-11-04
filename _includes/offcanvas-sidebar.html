@@ -5,16 +5,21 @@
         <!--Categories-->
         <div class="sidebar-widget widget_categories mb-50">
             <div class="widget-header position-relative mb-20">
-                <h5 class="widget-title mt-5">Categories</h5>
+                <h5 class="widget-title mt-5">Kategorije</h5>
             </div>
             <div class="post-block-list post-module-1 post-module-5">
                 <ul>
-                    <li class="cat-item cat-item-2"><a href="category.html">Beauty</a> (3)</li>
-                    <li class="cat-item cat-item-3"><a href="category.html">Book</a> (6)</li>
-                    <li class="cat-item cat-item-4"><a href="category.html">Design</a> (4)</li>
-                    <li class="cat-item cat-item-5"><a href="category.html">Fashion</a> (3)</li>
-                    <li class="cat-item cat-item-6"><a href="category.html">Lifestyle</a> (6)</li>
-                    <li class="cat-item cat-item-7"><a href="category.html">Travel</a> (2)</li>
+                    {% assign categories_list = site.categories %}
+                    {% if categories_list.first[0] == null %}
+                        {% for category in categories_list %}
+                        <li class="cat-item cat-item-2"><a href="{{site.baseurl}}/categories#{{ category | url_escape | strip | replace: ' ', '-' }}">{{ category | camelcase }} ({{ site.tags[category].size }})</a></li>
+                        {% endfor %}
+                    {% else %}
+                        {% for category in categories_list %}
+                         <li class="cat-item cat-item-3"><a  href="{{site.baseurl}}/categories#{{ category[0] | url_escape | strip | replace: ' ', '-' }}">{{ category[0] | camelcase }} ({{ category[1].size }})</a></li>
+                        {% endfor %}
+                    {% endif %}
+                    {% assign categories_list = nil %}
                 </ul>
             </div>
         </div>
@@ -28,7 +33,7 @@
                         <div class="d-flex">
                             <div class="post-thumb d-flex mr-15 border-radius-5 img-hover-scale">
                                 <a class="color-white" href="single.html">
-                                    <img src="assets/imgs/thumbnail-1.jpg" alt="">
+                                    <img src="assets/imgs/thumbnail-1.webp" alt="">
                                 </a>
                             </div>
                             <div class="post-content media-body">
@@ -44,7 +49,7 @@
                         <div class="d-flex">
                             <div class="post-thumb d-flex mr-15 border-radius-5 img-hover-scale">
                                 <a class="color-white" href="single.html">
-                                    <img src="assets/imgs/thumbnail-2.jpg" alt="">
+                                    <img src="assets/imgs/thumbnail-2.webp" alt="">
                                 </a>
                             </div>
                             <div class="post-content media-body">
@@ -60,7 +65,7 @@
                         <div class="d-flex">
                             <div class="post-thumb d-flex mr-15 border-radius-5 img-hover-scale">
                                 <a class="color-white" href="single.html">
-                                    <img src="assets/imgs/thumbnail-3.jpg" alt="">
+                                    <img src="assets/imgs/thumbnail-3.webp" alt="">
                                 </a>
                             </div>
                             <div class="post-content media-body">
@@ -76,7 +81,7 @@
                         <div class="d-flex">
                             <div class="post-thumb d-flex mr-15 border-radius-5 img-hover-scale">
                                 <a class="color-white" href="single.html">
-                                    <img src="assets/imgs/thumbnail-4.jpg" alt="">
+                                    <img src="assets/imgs/thumbnail-4.webp" alt="">
                                 </a>
                             </div>
                             <div class="post-content media-body">
@@ -92,7 +97,7 @@
                         <div class="d-flex">
                             <div class="post-thumb d-flex mr-15 border-radius-5 img-hover-scale">
                                 <a class="color-white" href="single.html">
-                                    <img src="assets/imgs/thumbnail-5.jpg" alt="">
+                                    <img src="assets/imgs/thumbnail-5.webp" alt="">
                                 </a>
                             </div>
                             <div class="post-content media-body">
@@ -108,8 +113,8 @@
             </div>
         </div>
         <div class="sidebar-widget widget-ads mb-30">
-            <a href="assets/imgs/news-1.jpg" class="play-video" data-animate="zoomIn" data-duration="1.5s" data-delay="0.1s">
-                <img src="assets/imgs/ads-1.jpg" alt="">
+            <a href="assets/imgs/news-1.webp" class="play-video" data-animate="zoomIn" data-duration="1.5s" data-delay="0.1s">
+                <img src="assets/imgs/ads-1.webp" alt="">
             </a>
         </div>
     </div>
