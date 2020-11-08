@@ -4,7 +4,7 @@ title:  "We all wait for summer"
 lead: It seems to me that education has a two-fold function to perform in the life of man and in society the one is utility and the other is culture. Education must enable a man to become more efficient, to achieve with increasing facility the ligitimate goals of his life.
 author: jane
 categories: [ Jekyll, tutorial ]
-image: assets/images/1.webp
+image: /assets/images/1.webp
 tags: featured homeintro
 icon: mdi-audiotrack
 icon-color: 8

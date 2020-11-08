@@ -2,7 +2,8 @@
 layout: post
 title:  "Koloidno srebro - čudesni prirodni antibiotik"
 author: jane
-categories: [ zdravlje ]
+featured: true
+categories: [ zdravlje, homeintro ]
 image: /uploads/zdravlje/ionsko-srebro.jpg
 tags: ionsko srebro
 icon: mdi-camera-alt
